@@ -1,5 +1,5 @@
 function getLength(array) {
-	array = array.flat();
+	array = array.flat(infinity);
 	return array.length
 }
 const output = (getLength([1, [2, [3, 4]]]))
